@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Estilos para el botón de radio no seleccionado */
+.custom-radio {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid red;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Estilos para el botón de radio seleccionado */
+.custom-radio:checked {
+  background-color: blue;
+  border: 2px solid blue;
+  appearance: none;
+  outline: none;
+}
+
+/* Estilo para el indicador interno del botón de radio seleccionado */
+.custom-radio:checked::after {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 2px;
+}
+
