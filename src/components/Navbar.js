@@ -13,16 +13,16 @@ function Navbar(){
       </a>
       <div className="flex gap-4  shadow-gray-300 rm-12">
         <li >
-        <a href="#100" className="border border-grey-300 rounded-full">
+        <a href="https://www.google.com/" className="border border-grey-300 rounded-full">
           Quienes Somos</a>
         </li>
   
         <li >
-        <a href="#101" className="border border-grey-300 rounded-full">
+        <a href="https://www.google.com/" className="border border-grey-300 rounded-full">
           Sobre que bloque</a>
         </li>
         <li >
-        <a href="#101" className="border border-grey-300 rounded-full">
+        <a href="https://www.google.com/" className="border border-grey-300 rounded-full">
           Cotiza</a>
         </li>
       </div>

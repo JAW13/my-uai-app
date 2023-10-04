@@ -15,7 +15,7 @@ function Footer(){
       <ul class="flex flex-wrap items-center gap-y-2 gap-x-8">
         <li>
           <a
-            href="#"
+            href="https://www.google.com/"
             class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased transition-colors hover:text-pink-500 focus:text-pink-500"
           >
             About Us
@@ -23,7 +23,7 @@ function Footer(){
         </li>
         <li>
           <a
-            href="#"
+            href="https://www.google.com/"
             class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased transition-colors hover:text-pink-500 focus:text-pink-500"
           >
             License
@@ -31,7 +31,7 @@ function Footer(){
         </li>
         <li>
           <a
-            href="#"
+            href="https://www.google.com/"
             class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased transition-colors hover:text-pink-500 focus:text-pink-500"
           >
             Contribute
@@ -39,7 +39,7 @@ function Footer(){
         </li>
         <li>
           <a
-            href="#"
+            href="https://www.google.com/"
             class="block font-sans text-base font-normal leading-relaxed text-blue-gray-900 antialiased transition-colors hover:text-pink-500 focus:text-pink-500"
           >
             Contact Us
