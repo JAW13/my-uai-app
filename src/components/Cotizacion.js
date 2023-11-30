@@ -7,8 +7,8 @@ function Cotizacion() {
     const [ancho, setAncho] = useState(0);
     const [financiamiento, setFinanciamiento] = useState(false);
 
-    const costoMaterial = metros * 100000;
-    const costoManoObra = metros*10000; // Puedes ajustar este valor según tus necesidades
+    const costoMaterial = metros * 79200;
+    const costoManoObra = metros*2400; // Puedes ajustar este valor según tus necesidades
     const gestionFinanciamineto = 250000;
     const costoTotal= costoMaterial + costoManoObra + gestionFinanciamineto
     const descuento = financiamiento ? costoTotal * 0.70 : 0;
@@ -16,7 +16,7 @@ function Cotizacion() {
     return (
         <div className="p-4">
             {/* Título principal */}
-            <h1 className=" pt-10 pb-10 mb-4 ml-8 text-5xl">Hagamos numeros!</h1>
+            <h1 className=" pt-10 pb-10 mb-4 ml-8 text-5xl">Hagamos números!</h1>
 
             <div className="flex space-x-4 ml-8">
                 {/* Columna izquierda */}
